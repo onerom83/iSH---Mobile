@@ -8,9 +8,6 @@ echo "Cantidad (€): \c" ; read euros
 echo "Pagado con (B, C, T): \c" ; read bct
 echo "Observaciones: \c" ; read observaciones
 
-
-#cadena=$(echo -n $euros | cut -d',' -f2 | wc -c)
-
 euros=`printf "%5.2f" $euros`
 
 echo $fecha';'$lugar';'$categoria';'-$(echo $euros | tr ',' '.')';'$(echo $bct | tr 'bct' 'BCT')';'$observaciones >> datos/registro_gastos.txt
