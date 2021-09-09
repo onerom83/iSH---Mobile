@@ -1,10 +1,10 @@
 #! /bin/bash
 
 echo "Nuevo gasto: "
+echo "Cantidad (€): \c" ; read euros
 echo "Fecha: \c" ; read fecha
 echo "Lugar: \c" ;  read lugar
 echo "Categoría: \c" ; read categoria
-echo "Cantidad (€): \c" ; read euros
 echo "Pagado con (B, C, T): \c" ; read bct
 echo "Observaciones: \c" ; read observaciones
 
