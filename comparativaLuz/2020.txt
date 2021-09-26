@@ -1,0 +1,3 @@
+enero;0.00
+febrero;25.20
+marzo;31.50
